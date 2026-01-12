@@ -14,9 +14,9 @@ This project implements fake news detection using:
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| XGBoost | XX.XX% | XX.XX% | XX.XX% | XX.XX% |
-| Logistic Regression | XX.XX% | XX.XX% | XX.XX% | XX.XX% |
-| MLP | XX.XX% | XX.XX% | XX.XX% | XX.XX% |
+| XGBoost | 68.64% | 68.92% |  67.93% |  68.42% |
+| Logistic Regression |  66.42% | 66.41% |  66.48% |  66.44% |
+| MLP |  69.17% |  69.37%| 68.68% |  69.02%|
 
 *(Update with your actual results)*
 
@@ -115,21 +115,10 @@ See `visualizations/` folder for:
 - Performance comparison charts
 - Dataset distribution plots
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
 
-This project is licensed under the MIT License.
 
-## 👤 Author
 
-Your Name
 
-## 🙏 Acknowledgments
 
-- Kaggle for dataset hosting
-- Figshare for dataset access
-- scikit-learn community
-- XGBoost developers
