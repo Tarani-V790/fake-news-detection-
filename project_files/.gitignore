@@ -1,0 +1,43 @@
+# Large data files
+*.csv
+*.zip
+data/raw/*
+!data/raw/.gitkeep
+
+# Model files (too large)
+*.pkl
+*.joblib
+models/*
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Kaggle credentials
+kaggle.json
+
+# Keep folder structure
+!.gitkeep
